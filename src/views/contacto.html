@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACTANOS</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../assets/styles/estilos.css">
+    
+</head>
+<body>
+    <header class="fondoformulario">
+    <main >
+        <section class="container ">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h4 class=" text-center">DILIGENCIA LA SIGUIENTE INFORMACION</h4>
+                    <form class="border p-5 rounded">
+
+                        <div class="form-floating mx-5 mt-3">
+                            <input type="Nombre Completo " class="form-control" id="nombre">
+                            <label for="floatingInputDisabled">Nombre Completo</label>
+                        </div>
+            
+                        <div class="form-floating mx-5 mt-3">
+                            <input type="email" class="form-control" id="email" placeholder="name@example.com">
+                            <label for="floatingInputDisabled">Correo Electronico</label>
+                        </div>
+                      
+                        <div class="form-floating mx-5 mt-3">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="comment" style="height: 100px" ></textarea>
+                            <label for="floatingTextarea2Disabled">Comentario</label>
+                        </div>
+
+                        <div class="form-floating mx-5 mt-3">
+                            <select class="form-select" id="selector" aria-label="Floating label disabled select example" >
+                            <option selected>Seleccione una opcion </option>
+                            <option value="1">Deseas contactar a todo el equipo?</option>
+                            <option value="2">Deseas un desarrollo especifico?</option>
+                            <option value="3">Deseas contactar un desarrodor en especial? cual?</option>
+                            </select>
+                            <label for="floatingSelectDisabled"></label>
+                        </div> 
+                        <div class="form-floating mx-5 mt-3">
+                            <select class="form-select" id="selector2" aria-label="Floating label disabled select example" >
+                            <option selected>Seleccione el desarrollador</option>
+                            <option value="1">Mauro Yepes</option>
+                            <option value="2">Camila Builes</option>
+                            <option value="3">Diego Ospina</option>
+                            </select>
+                            <label for="floatingSelectDisabled"></label>
+                        </div> 
+                        <button type="submit" class="btn btn-primary mx-auto d-block mt-3" id="botonIngreso">ENVIAR</button>  
+        </form> 
+    </div>   
+    </div>     
+        </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</main>
+</header>
+<script src="../controllers/wow.min.js"></script>
+<script src="../controllers/contac.js"></script>
+</body>
+</html>

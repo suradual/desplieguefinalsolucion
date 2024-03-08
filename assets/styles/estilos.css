@@ -1,0 +1,32 @@
+.fondoproyecto {
+    background-image: url("../img/bannerformulario2.jpg");
+    padding: 25%;
+    background-attachment: fixed;
+    position: relative;
+    z-index:1;
+}
+.fondoproyecto::after{
+    position: absolute;
+    content: "";
+    background-color: black;
+    color: antiquewhite;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+.fondo2{
+    background-color:darkgrey;
+}
+
+.principal{
+    background-image: url(../img/banner2.jpg);
+    padding: 25%;
+    background-attachment: fixed;
+}
+.fondoformulario{
+    background-color: lightblue;
+}
